@@ -152,4 +152,4 @@ const MAX_RTT_ERROR: f32 = 0.2;
 /// Minimum value to request the peer set max ACK delay to when the peer supports the ACK frequency
 /// extension and an explicit max ACK delay is not configured.
 // Keep in sync with `AckFrequencyConfig::max_ack_delay` documentation
-const MIN_AUTOMATIC_ACK_DELAY: Duration = Duration::from_millis(25);
+const MIN_AUTOMATIC_ACK_DELAY: Duration = Duration::from_millis(1000);
